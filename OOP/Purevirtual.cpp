@@ -14,6 +14,8 @@ public:
 
     const string &getName() const { return m_name; }
     virtual string speak() const = 0; // pure virtual function
+
+    //int doSomething() = 0; // Compile error: can not set non-virtual functions to 0
 };
 
 class Dog : public Animal

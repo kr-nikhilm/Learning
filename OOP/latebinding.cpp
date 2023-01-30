@@ -46,7 +46,7 @@ int main()
         break;
     }
 
-    // This uses late binding
+    // late binding
     cout << "The answer is: " << pFcn(x, y) << '\n';
 
     return 0;

@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    const double d{5.3}; // 1.2 is an rvalue expression
+    const double d{5.3}; // 5.3 is an rvalue expression
     const double e{d};   // d is a non-modifiable lvalue
 
     int x{5};
