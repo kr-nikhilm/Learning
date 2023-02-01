@@ -8,7 +8,13 @@ int main(){
    
 
     vector<int> v1(7,9);   //insert 7 elements with 9 value of each element
-    for(auto x:v){
+    vector<int> vt{1,2,3,4,5,6,7};
+    vt.erase(vt.begin()+2);
+      for(auto x:v){
+        cout<<x<<" ";
+    }
+    cout<<"\n";
+    for(auto x:vt){
         cout<<x<<" ";
     }
     cout<<"\n";
